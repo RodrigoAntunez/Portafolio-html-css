@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
+:root{
+    --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+    --color-primary: #667eea;
+    --color-secondary: #764ba2;
+    --boton-padding: 20px 40px;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: red; */
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
+}
+
+.subtitle{
+    color: var(--color-primary);
 }
