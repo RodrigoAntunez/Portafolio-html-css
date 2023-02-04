@@ -225,6 +225,12 @@ body{
     flex-direction: column;
     justify-content: center;
     transform: translateX(100%);
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.projects__item:hover .projects_hover{ /*Es el efecto sobre los proyectos*/
+    transform: translateX(0);
 }
 
 .projects__icon{
