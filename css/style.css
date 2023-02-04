@@ -237,3 +237,11 @@ body{
     margin-top: 10px;
     font-size: 30px;
 }
+
+/*Testimonios*/
+.testimony__grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
