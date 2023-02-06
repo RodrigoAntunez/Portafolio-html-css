@@ -309,3 +309,29 @@ body{
     text-align: center;
 }
 
+.footer__icons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer_container-icons{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer__icons{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.fab.footer__icons{
+    font-size: 60px;
+}
