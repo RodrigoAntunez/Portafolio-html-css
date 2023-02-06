@@ -288,3 +288,24 @@ body{
     font-weight: 300;
 }
 
+/*FOOTER*/
+
+.footer{
+    background: var(--color-primary);
+}
+
+.footer__grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer__title{
+    font-weight: 400;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
