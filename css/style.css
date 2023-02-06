@@ -245,3 +245,14 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
+
+.testimony__item{
+    width: 95%;
+    margin: auto;
+    background: var(--color-secondary);
+    box-shadow: 0 8px 10px rgb(66, 66, 66 .5);
+    border-radius: 7px;
+    padding: 30px 25px;
+    color: white;
+    margin-bottom: 50px;
+}
