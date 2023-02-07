@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
 :root{
-    --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+    --background: linear-gradient(135deg, #272f557e 0%, #764ba200 100%);
     --color-primary: #667eea;
     --color-secondary: #764ba2;
     --boton-padding: 20px 40px;
@@ -28,7 +28,7 @@ body{
 
 .hero{
     height: 100vh;
-    background: var(--background), url('/assets/hero.jpg'); /*Esto hay que modificar, es el fondo del inicio*/
+    background: var(--background), url('/assets/hero13.gif'); /*Esto hay que modificar, es el fondo del inicio*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
