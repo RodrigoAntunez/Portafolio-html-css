@@ -337,3 +337,10 @@ body{
 .fab.footer__icons{
     font-size: 60px;
 }
+
+/*RESPONSIVE DESING*/
+@media screen and (max-width: 800px){
+    :root {
+        --boton-padding: 18px 40px;
+    }
+}
