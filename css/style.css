@@ -348,9 +348,22 @@ body{
         justify-content: space-around;
     }
 
+    .nav__items--cta{
+        border: none;
+    }
+
     .nav__item{
         font-weight: 400;
         border-bottom: 1px solid white;
         margin-right: 0;
+    }
+
+    .nav__items--footer{
+        border: none;
+    }
+
+    .hero__texts{
+        width: 100%;
+        margin-bottom: 80px;
     }
 }
