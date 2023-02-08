@@ -343,4 +343,14 @@ body{
     :root {
         --boton-padding: 18px 40px;
     }
+
+    .nav{
+        justify-content: space-around;
+    }
+
+    .nav__item{
+        font-weight: 400;
+        border-bottom: 1px solid white;
+        margin-right: 0;
+    }
 }
