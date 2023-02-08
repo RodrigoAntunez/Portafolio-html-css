@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
 :root{
-    --background: linear-gradient(135deg, #272f557e 0%, #764ba200 100%);
-    --color-primary: #667eea;
+    --background: linear-gradient(135deg, #272f557e 0%, #313032e3 100%);
+    --color-primary: #1a1a1b;
     --color-secondary: #764ba2;
     --boton-padding: 20px 40px;
 }
