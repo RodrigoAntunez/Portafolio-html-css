@@ -396,4 +396,32 @@ body{
     .about__texts:last-child{
         grid-row: 3/4;
     }
+
+    /*PROYECTOS */
+    .projects__grid{
+        grid-template-areas: 
+        "img1 img1 img2 img2"
+        "img1 img1 img3 img3"
+        "img4 img4 img5 img5";
+    }
+
+    /*TESTIMONIOS*/
+    .testimony__grid{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .testimony__item{
+        margin-bottom: 30px;
+    }
+
+    /*FOOTER*/
+
+    .footer__grid{
+        grid-template-columns: 1fr;
+    }
+
+    .footer__contac{
+        grid-row: 1/2;
+    }
 }
